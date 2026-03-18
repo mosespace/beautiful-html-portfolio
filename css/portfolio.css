@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* ===Shared Style === */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    /* width: 140px;
+    height: 64px; */
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.primary-bg {
+    background-color: #FFF;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* === Header Style === */
+header {
+    background-image: url('../images/developer.png'), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+
+/* === Navbar Style === */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 125px;
+    margin-left: 125px;
+}
+
+.banner-content {
+    max-width: 585px;
+    max-height: 355px;
+}
+
+/* === Banner Styles === */
+.banner-greetings {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description {
+    width: 585px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-image {
+    width: 585px;
+    height: 675px;
+}
+
+/* === About Style === */
+.about {
+    margin: 125px 230px 0px;
+    border-radius: 10px;
+    padding: 130px 155px;
+    max-width: 1140px;
+    max-height: 550px;
+}
+
+.about-me {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 825px;
+    max-height: 285px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    font-size: 20px;
+}
+
+.item-description {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skills {
+    margin: 125px 230px 0px;
+}
+
+.skills-description {
+    margin: 30px 150px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skill {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    line-height: 28px;
+}
+
+/* === Resume Styles === */
+.resume-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.resume {
+    margin: 125px 230px 0px;
+}
+
+.resume .resume-container hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-column-title {
+    margin-bottom: 30px;
+}
+
+.resume-column-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.resume-experience-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.resume-experience-subtitle {
+    margin-bottom: 20px;
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+/* === Footer Styles === */
+.footer-section {
+    display: flex;
+    gap: 24px;
+    margin-top: 125px;
+    padding: 130px 230px;
+    justify-content: space-around;
+}
+
+.footer-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+footer .icon a img{
+    margin-right: 25px;
+}
+
+footer form input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 18px 30px;
+    margin-bottom: 25px;
+}
+
+.footer-column {
+    width: 50%;
+}
